@@ -49,4 +49,14 @@ public class Pet {
         System.out.println(name + " | Hunger: " + hunger
                 + " | Happiness: " + happiness);
     }
+
+	/**
+	Puts the pet to sleep. Increases happiness by 25
+	and slightly increases hunger
+	*/
+    public void sleep() {
+        happiness = Math.min(100, happiness + 25);
+        hunger = Math.min(100, hunger + 5);
+        System.out.println(name + " takes a nap.");
+    }
 }

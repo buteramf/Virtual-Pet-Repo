@@ -18,6 +18,7 @@ public class Main {
 
         dog.feed();
         cat.play();
+        dog.sleep();
 
         dog.showStatus();
         cat.showStatus();
